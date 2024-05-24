@@ -955,6 +955,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 10rem;
     }
 
     .container{
@@ -1029,7 +1030,7 @@
         
     }
 
-    #project-text button{
+    .project-button{
         background-color: #7843E9;
         width: 12vw;
         height: 10vh;
@@ -1045,13 +1046,13 @@
         margin-top: 2rem;
     }
 
-    #project-text button:hover{
+    .project-button:hover{
         transform: scale(1.2);
         box-shadow: 0 0 20px rgb(0, 0, 0);
         background-color: #661fff;
     }
 
-    #project-text button a{
+    .project-button a{
         width: 100%;
         font-size: 13pt;
         text-align: center;
@@ -1062,7 +1063,7 @@
     #section-rodapé{
         width: 100vw;
         height: 45vh;
-        margin-top: 5rem;        
+        margin-top: 65rem;        
         background-color: #7843E9;
         border-top: 5px solid #a83fce;
     }
